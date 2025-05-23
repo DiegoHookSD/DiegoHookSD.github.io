@@ -106,6 +106,72 @@
         </div>
       </div>
 
+      <!-- FLASHCARD APP SIMULATOR PROJECT -->
+      <div class="row mb-5">
+        <div class="col-lg-6 mb-5" data-aos="fade-up">
+
+          <div class="row mb-4">
+            <div class="col-12">
+              <img src="images/flashcard.PNG" alt="flashcard stock photo" class="img-fluid rounded mb-4">
+
+            </div>
+            <div class="col-12">
+              <img src="images/SimpleUML.PNG" alt="Highlevel UML diagram" class="img-fluid rounded">
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <div class="mb-4">
+            <h3>FlashCard Application</h3>
+
+            <p>
+              The <strong>FlashCard Application</strong> was our final class project to prove that we had mastered the concepts of
+              Object Oriented design principles and Test Driven Development by giving us the choice to decide what Object Oriented design problem
+              We wanted to create a project for. We decided to address a common study issue that eliminates the need to create and store physical
+              flashcards and to track study progress whe using them. Quizlet has become a useful application for solving this issue so My partner mike
+              and I were inspired by how they tackled the issue looking to emulate their design process
+            </p>
+
+            <p>
+              We wanted to provide an interface in which users could either preload a csv file of a deck of pre-existing flashcards
+              or to be able to create a new deck of customized flashcards. Then we want our users to be able to load their desired deck
+              to initiate a study session based of on our study strategy algorithms we included. after a user interacts with their deck they
+              are then displayed the results of their study session and are able to access a history of them to track their progress. This
+              would address our goal of providing a sleek user experience while providing a quick and easy way to study.
+            </p>
+
+            <p>
+              to design this project Mike and I decided to start from the most basic components of the code i.e. the flash cards and study strategies and
+              then build up to creating the App & UI. we determined that since card creation was essential to solving our problem we needed to utilize the Factory
+              method to give the project the ability to create different types of cards while making the code extendable to future card types like multiple choice.
+              Secondly we decided to apply the strategy pattern to our Study Strategies to define a set of rules for creating algorithms that are all commonly responsible
+              for iterating through a deck of cards like our sequential and random study strategies while having  a way for future developers to create extend their onw
+              algorithms like a Knowledge level algorithm that prioritizes cards that the user commonly gets incorrect. for our deck files we decided to use a singleton desgin
+              pattern to create a single/global access point for our filemanager to be referenced in our Flashcard Application in order to not interfere with the proper
+              allocation/storage of files by having multiple instances of a filemanager. We used java to implement our TDD and classes due to our class experience shaping our familiarity
+              with the language.
+            </p>
+
+            <p>
+              For this Project i was personally responsible for all classes in the Study Strategy Design Pattern, the Study Session (for all instances of a
+              study session and how it incorporates a deck and study strategy where used), Study Statistics (Report on results of study session for the User).
+              And the first half of creating our User interface and the Readme. All pieces of these works required me to collaborate with Micheal in order to
+              properly test/code/implement my portion to his components requirements and vice versa so we did a lot of zoom and in person pair coding on our own modules.
+              Test Driven Development was so crucial in this project because we were able to confirm the behaviors of components that future more complicated code
+              which would have been extremely difficult to debug and fix if we had created everything first and tested after.
+
+            </p>
+
+            <p>
+              🔗 <a href="https://github.com/usd-comp-305/project-04-mike-and-diego" target="_blank">
+              View the GitHub Repository
+            </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
       <!-- ELEVATOR SIMULATOR PROJECT -->
       <div class="row mb-5">
         <div class="col-lg-6 mb-5" data-aos="fade-up">
